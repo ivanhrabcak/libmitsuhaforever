@@ -11,9 +11,9 @@
 #define MSHFPreferencesIdentifier @"com.ryannair05.mitsuhaforever"
 #define MSHFColorsIdentifier @"com.ryannair05.mitsuhaforever.colors"
 #define MSHFPreferencesChanged @"com.ryannair05.mitsuhaforever/ReloadPrefs"
-#define MSHFPrefsFile                                                          \
-  @"/var/mobile/Library/Preferences/"                                          \
-  @"com.ryannair05.mitsuhaforever.plist"
+// #define MSHFPrefsFile                                                          \
+//   @"/var/mobile/Library/Preferences/"                                          \
+//   @"com.ryannair05.mitsuhaforever.plist"
 #define MSHFColorsFile                                                         \
   @"/var/mobile/Library/Preferences/"                                          \
   @"com.ryannair05.mitsuhaforever.colors.plist"
@@ -32,7 +32,10 @@
 #define ArtsyTweakPlistFile                                                    \
   @"/var/jb/Library/MobileSubstrate/DynamicLibraries/Artsy.plist"
 #define MSHFAudioBufferSize 1024
+
+#ifndef ASSPORT
 #define ASSPort 44333
+#endif
 
 @interface NSUserDefaults (mshfPrivate)
 - (instancetype)_initWithSuiteName:(NSString *)suiteName
