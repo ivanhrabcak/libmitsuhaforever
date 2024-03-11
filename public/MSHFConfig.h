@@ -53,6 +53,6 @@
 + (NSDictionary *)parseConfigForApplication:(NSString *)name;
 - (void)setDictionary:(NSDictionary *)dict;
 - (void)configureView;
-- (void)reloadConfig;
+- (void)reload;
 
 @end
