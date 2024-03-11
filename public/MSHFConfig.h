@@ -1,8 +1,9 @@
-#import "MSHFBarView.h"
-#import "MSHFDotView.h"
-#import "MSHFJelloView.h"
-#import "MSHFLineView.h"
-#import "MSHFSiriView.h"
+// #import "MSHFBarView.h"
+// #import "MSHFDotView.h"
+// #import "MSHFJelloView.h"
+// #import "MSHFLineView.h"
+// #import "MSHFSiriView.h"
+#import "MSFHView.h"
 
 @interface MSHFConfig : NSObject
 
